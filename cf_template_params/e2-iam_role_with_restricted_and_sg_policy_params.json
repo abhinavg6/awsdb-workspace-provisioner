@@ -1,0 +1,14 @@
+[
+    {
+        "ParameterKey": "WorkspaceAccount",
+        "ParameterValue": "11111111111"
+    },
+    {
+        "ParameterKey": "InlinePolicyName",
+        "ParameterValue": "Databricks-E2-Cross-Account-RestrictedSG-Policy-AbhiDev"
+    },
+    {
+        "ParameterKey": "OwnerTagValue",
+        "ParameterValue": "abhinav.garg@databricks.com"
+    }
+]

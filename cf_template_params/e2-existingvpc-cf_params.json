@@ -1,0 +1,62 @@
+[    
+    {
+        "ParameterKey": "Subnet1Cidr",
+        "ParameterValue": "10.173.52.0/22"
+    },
+    {
+        "ParameterKey": "Subnet2Cidr",
+        "ParameterValue": "10.173.56.0/22"
+    },
+    {
+        "ParameterKey": "ShouldCreateNATGateway",
+        "ParameterValue": "no"
+    },
+    {
+        "ParameterKey": "ExistingNATGatewayId",
+        "ParameterValue": "nat-00000000000000000"
+    },
+    {
+        "ParameterKey": "NatSubnetCidr",
+        "ParameterValue": "10.173.16.0/28"
+    },
+    {
+        "ParameterKey": "ShouldCreatePrivateRouteTable",
+        "ParameterValue": "no"
+    },
+    {
+        "ParameterKey": "ExistingPrivateRouteTableId",
+        "ParameterValue": "rtb-00000000000000000"
+    },
+    {
+        "ParameterKey": "ExistingPublicRouteTableId",
+        "ParameterValue": "rtb-notrequired"
+    },
+    {
+        "ParameterKey": "Subnet1Name",
+        "ParameterValue": "Databricks-E2-Workspace-Subnet1-BYOVPC-AbhiDev"
+    },
+    {
+        "ParameterKey": "Subnet2Name",
+        "ParameterValue": "Databricks-E2-Workspace-Subnet2-BYOVPC-AbhiDev"
+    },
+    {
+        "ParameterKey": "NatSubnetName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "NATGWName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "PrivateRTName",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "SecurityGroupName",
+        "ParameterValue": "Databricks-E2-Workspace-SG-BYOVPC-AbhiDev"
+    },
+    {
+        "ParameterKey": "OwnerTagValue",
+        "ParameterValue": "abhinav.garg@databricks.com"
+    }
+]
