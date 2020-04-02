@@ -23,3 +23,5 @@ Sample Provisioning Project for AWS Databricks E2 Workspace
 * Provide relevant param values for cloudformation templaes as per your environment. See [this template repo](https://github.com/abhinavg6/awsdb-cf-templates-ext) for updated templates.
 * Provide relevant master parameter values in the python script as per your environment.
 * If you're changing the template structure or using a different template altogether, just make sure that relevant parameters and output values are referenced in the python script.
+* Execute as `python dbx-ws-provisioner.py`
+
