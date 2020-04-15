@@ -20,7 +20,8 @@ Sample Provisioning Project for AWS Databricks E2 Workspace
 * Clone the repo
 * `pip install boto3` or `conda install boto3` - This should get `botocore` as well if not there already.
 * `pip install git+git://github.com/abhinavg6/databricks-cli.git` - This is a fork synced from main Databricks CLI, and contains the preview E2 account API.
-* Provide relevant param values for cloudformation templaes as per your environment. See [this template repo](https://github.com/abhinavg6/awsdb-cf-templates-ext) for updated templates.
+* Make sure that the relevant [AWS user credentials](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html#shared-credentials-file) exist in the home directory at `~/.aws/credentials`. 
+* Provide relevant param values for cloudformation templates as per your environment. See [this template repo](https://github.com/abhinavg6/awsdb-cf-templates-ext) for updated templates.
 * Provide relevant master parameter values in the python script as per your environment.
 * If you're changing the template structure or using a different template altogether, just make sure that relevant parameters and output values are referenced in the python script.
 * Execute as `python dbx-ws-provisioner.py`
