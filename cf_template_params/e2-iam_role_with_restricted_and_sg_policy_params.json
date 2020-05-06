@@ -1,5 +1,9 @@
 [
     {
+        "ParameterKey": "IAMRoleName",
+        "ParameterValue": "Databricks-E2-Cross-Account-RestrictedSG-Role-AbhiDev"
+    },
+    {
         "ParameterKey": "InlinePolicyName",
         "ParameterValue": "Databricks-E2-Cross-Account-RestrictedSG-Policy-AbhiDev"
     },

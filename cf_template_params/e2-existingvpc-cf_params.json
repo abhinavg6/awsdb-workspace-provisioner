@@ -1,11 +1,11 @@
 [    
     {
         "ParameterKey": "Subnet1Cidr",
-        "ParameterValue": "10.173.52.0/22"
+        "ParameterValue": "10.172.10.0/24"
     },
     {
         "ParameterKey": "Subnet2Cidr",
-        "ParameterValue": "10.173.56.0/22"
+        "ParameterValue": "10.172.11.0/24"
     },
     {
         "ParameterKey": "ShouldCreateNATGateway",
@@ -13,11 +13,11 @@
     },
     {
         "ParameterKey": "ExistingNATGatewayId",
-        "ParameterValue": "nat-00000000000000000"
+        "ParameterValue": "nat-xxxyyyzzz"
     },
     {
         "ParameterKey": "NatSubnetCidr",
-        "ParameterValue": "10.173.16.0/28"
+        "ParameterValue": "10.172.3.0/26"
     },
     {
         "ParameterKey": "ShouldCreatePrivateRouteTable",
@@ -25,7 +25,7 @@
     },
     {
         "ParameterKey": "ExistingPrivateRouteTableId",
-        "ParameterValue": "rtb-00000000000000000"
+        "ParameterValue": "rtb-xxxyyyzzz"
     },
     {
         "ParameterKey": "ExistingPublicRouteTableId",

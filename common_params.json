@@ -1,0 +1,18 @@
+{
+    "region_name": "us-west-2",
+    "vpc_id": "vpc-xxxyyyzzz",
+    "databricks_aws_account_id": "111111111111",
+    "databricks_workspace_account_id": "zzzzzzzz-yyyy-xxxx-uuuu-vvvvvvvvvvvv",
+    "vpc_stack_name": "E2-BYOVPC-Deploy-AbhiDev",
+    "iam_stack_name": "E2-IAMRole-RestrictedSG-Deploy-AbhiDev",
+    "s3_stack_name": "E2-S3-DBFS-Deploy-AbhiDev",
+    "kms_stack_name": "E2-KMS-BYOK-Deploy-AbhiDev",
+    "api_user": "somebody@databricks.com",
+    "api_password": "password",
+    "credentials_name": "e2-gtm-byok-ws-abhidev-creds",
+    "storage_config_name": "e2-gtm-byok-ws-abhidev-storage",
+    "network_name": "e2-gtm-byok-ws-abhidev-network",
+    "customer_managed_key_name": "e2-gtm-byok-ws-abhidev-cmk",
+    "workspace_name": "e2-gtm-byok-ws-abhidev-workspace",
+    "deployment_cname": "my-ws-byok-npip"
+}

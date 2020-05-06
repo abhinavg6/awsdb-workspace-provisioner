@@ -1,0 +1,14 @@
+[
+    {
+        "ParameterKey": "KeyDescription",
+        "ParameterValue": "KMS Key used by Databricks to encrypt/decrypt the notebooks for a workspace - AbhiDev"
+    },
+    {
+        "ParameterKey": "KeyAliasSuffix",
+        "ParameterValue": "databricks-e2-byok-abhidev"
+    },
+    {
+        "ParameterKey": "OwnerTagValue",
+        "ParameterValue": "abhinav.garg@databricks.com"
+    }
+]

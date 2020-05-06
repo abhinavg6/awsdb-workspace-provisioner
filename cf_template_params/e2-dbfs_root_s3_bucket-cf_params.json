@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "BucketName",
+        "ParameterValue": "databricks-e2-dbfs-abhidev"
+    },
+    {
+        "ParameterKey": "OwnerTagValue",
+        "ParameterValue": "abhinav.garg@databricks.com"
+    }
+]
