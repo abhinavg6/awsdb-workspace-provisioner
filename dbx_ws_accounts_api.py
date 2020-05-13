@@ -4,7 +4,7 @@
 import time
 
 from databricks_cli.sdk import ApiClient
-from databricks_cli.accounts import AccountsApi
+from databricks_cli.accounts.api import AccountsApi
 
 class DatabricksWSAccountsAPI(object):
 
